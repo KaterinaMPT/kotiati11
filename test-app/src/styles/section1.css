@@ -1,0 +1,42 @@
+.div2{
+    margin-top: 2%;
+    text-align: justify;
+    justify-content: left;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 80%;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 0.2fr, 0.5fr, 0.5fr;
+    grid-template-columns: 2fr, 1fr;
+}
+
+.memGoda{
+    margin-left: 2%;
+    font-size: 30px;
+    grid-row: 1;
+}
+
+.opis{
+    margin-left: 2%;
+    font-size: 24px;
+    grid-row: 2;
+    margin-right: 20%;
+}
+
+.nazv{
+    margin-left: 2%;
+    font-size: 22px;
+    grid-row: 3;
+}
+
+.memG{
+    grid-column: 2;
+    grid-row: 3 span;
+    background-image: url("https://i.postimg.cc/jdFJGqk4/mama.jpg");
+    width: 550px;
+    height: 400px;
+    justify-self: center;
+    margin-right: 15%;
+    margin-top: 8%;
+}

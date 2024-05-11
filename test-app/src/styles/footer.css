@@ -1,0 +1,9 @@
+footer{
+    margin-top: 6%;
+    grid-row: 5;
+    font-size: 26px;
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    align-self: end;
+    justify-content: space-around;
+}
